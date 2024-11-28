@@ -220,7 +220,7 @@ margin-top: 40px;
 .logo5{
     height: 200px;
     width: 200px;
-    background-image: url(/img/mysql.png);
+    background-image: url(img/mysql.png);
     background-size: cover;
     margin-left: 41px;
     margin-top: 12px;
@@ -229,7 +229,7 @@ margin-top: 40px;
 .logo6{
     height: 200px;
     width: 200px;
-    background-image: url(/img/python.png);
+    background-image: url(img/python.png);
     background-size: cover;
     margin-left: 41px;
     margin-top: 12px;
