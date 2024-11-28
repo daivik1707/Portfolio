@@ -1,0 +1,391 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+   color: aliceblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: aqua;
+}
+
+
+
+nav{
+
+  background-color:maroon;
+  position: sticky;
+  top: 0;
+  
+}
+
+ul{
+
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    color:white;
+    font-size: large;
+    font-weight: 100;  
+}
+
+li:hover{
+
+    color: aqua;
+}
+
+.main{
+    height: 370px;
+    width: 99.10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.profile{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url(img/image.png); 
+    background-size:cover;
+   
+}
+
+.details{
+padding: 85px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 80px;
+}
+
+h1{
+    color: black;
+    text-shadow: 0px 5px 3px lightgray;
+}
+
+h3{
+    color: #008080;
+    text-shadow: 0px 5px 3px lightgray;
+
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    line-height: 20px;
+    text-align: center;
+}
+
+.btn {
+color: white;
+background-color: dodgerblue;
+height: 50px;
+width: 200px;
+border-radius: 10px;
+margin-top: 40px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+
+
+}
+
+.item1{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.item2{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.item3{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+
+
+}
+
+.item4{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.item5{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.item6{
+    height: 230px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.logo1{
+    height: 200px;
+    width: 200px;
+    background-image: url(img/html.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.logo2{
+    height: 200px;
+    width: 200px;
+    background-image: url(img/css-3.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.logo3{
+    height: 200px;
+    width: 200px;
+    background-image: url(img/java-script.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.logo4{
+    height: 200px;
+    width: 200px;
+    background-image: url(img/java.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.logo5{
+    height: 200px;
+    width: 200px;
+    background-image: url(/img/mysql.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.logo6{
+    height: 200px;
+    width: 200px;
+    background-image: url(/img/python.png);
+    background-size: cover;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.projects{
+  height: 75vh;
+  width: 97vw;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+
+  
+
+}
+
+.project1{
+
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+    text-align: center;
+    border-top: 10px;
+}
+
+.project2{
+
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px gray;
+    text-align: center;
+    border-top: 10px;
+}
+
+
+.projectimg1{
+    height: 150px;
+    width: 160px;
+    margin-left: 113px;
+    margin-top: 13px;
+}
+
+ 
+.img1{
+    max-width: 100%;
+    max-height: 160px;
+    border-radius: 20px;
+}
+
+.prname1{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 10px;
+}
+
+.prd1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.Gbt1{
+    height: 30px;
+    width: 100px;
+    background-color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+.projectimg2{
+    height: 150px;
+    width: 160px;
+    margin-left: 113px;
+    margin-top: 13px;
+}
+
+ 
+.img2{
+    max-width: 100%;
+    max-height: 160px;
+    border-radius: 20px;
+}
+
+.prname2{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 10px;
+}
+
+.prd2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.Gbt2{
+    height: 30px;
+    width: 100px;
+    background-color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact{
+
+    width: 99%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box{
+height: 50px;
+width: 800px;
+border: 2px solid black;
+ border-radius: 20px;
+
+}
+
+.namec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: larger;
+     margin-top: 15px;
+    margin-left: 10px; 
+}
+
+.emailc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: larger;
+     margin-top: 15px;
+    margin-left: 10px; 
+}
+
+.msgc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: larger;
+     margin-top: 15px;
+    margin-left: 10px; 
+}
+
+.sbtn{
+
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgb(73, 73, 250);
+    border-radius: 10px;
+    
+}
